@@ -9,35 +9,6 @@ Key: 		L	E	M	O	N	L E M	O	N	L	E
 
 Next, each letter of the repeated keyword corresponds to the cipher alphabet (i.e. row) used to code each letter of the message based on the Vigenère square below. The letter in the original text is then replaced by the letter in the corresponding index of the cipher alphabet. That is, for the first two letters of the message example above, 'A' is coded as 'L' i.e. the 1st index of the cipher alphabet 'L', and 'T' is coded as 'X' i.e. the 20th index of cipher alphabet 'E' etc. Repeating these steps the fully coded message is - LXFOPVEFRNHR.
 
-Vigenère square:
-
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-B C D E F G H I J K L M N O P Q R S T U V W X Y Z A
-C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
-D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-E F G H I J K L M N O P Q R S T U V W X Y Z A B C D
-F G H I J K L M N O P Q R S T U V W X Y Z A B C D E
-G H I J K L M N O P Q R S T U V W X Y Z A B C D E F
-H I J K L M N O P Q R S T U V W X Y Z A B C D E F G
-I J K L M N O P Q R S T U V W X Y Z A B C D E F G H
-J K L M N O P Q R S T U V W X Y Z A B C D E F G H I
-K L M N O P Q R S T U V W X Y Z A B C D E F G H I J
-L M N O P Q R S T U V W X Y Z A B C D E F G H I J K
-M N O P Q R S T U V W X Y Z A B C D E F G H I J K L
-N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
-O P Q R S T U V W X Y Z A B C D E F G H I J K L M N
-P Q R S T U V W X Y Z A B C D E F G H I J K L M N O
-Q R S T U V W X Y Z A B C D E F G H I J K L M N O P
-R S T U V W X Y Z A B C D E F G H I J K L M N O P Q
-S T U V W X Y Z A B C D E F G H I J K L M N O P Q R
-T U V W X Y Z A B C D E F G H I J K L M N O P Q R S
-U V W X Y Z A B C D E F G H I J K L M N O P Q R S T
-V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
-W X Y Z A B C D E F G H I J K L M N O P Q R S T U V
-X Y Z A B C D E F G H I J K L M N O P Q R S T U V W
-Y Z A B C D E F G H I J K L M N O P Q R S T U V W X
-Z A B C D E F G H I J K L M N O P Q R S T U V W X Y
-
 Rules:
 Your class should be called VigenereCipher and should use the Cipher interface (available here)
 You should use the Vigenère square above to encrypt and decrypt the messages using a given key (both retrieved from a file).
